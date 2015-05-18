@@ -8,6 +8,7 @@ import leancloud
 from leancloud import Object
 from leancloud import LeanCloudError
 from leancloud import Query
+from bbsSection import settings
 
 
 class SectionerSpider(scrapy.Spider):
@@ -34,7 +35,7 @@ class SectionerSpider(scrapy.Spider):
     def closed(self,reason):
         #f = open('../../nohup.out')
         #print f.read()
-        leancloud.init('yn33vpeqrplovaaqf3r9ttjl17o7ej0ywmxv1ynu3d1c5wk8', master_key='zkw2itoe7oyyr3vmyrs8m95gbk0azmikc3jrtk2lw2z4792i')
+        leancloud.init(settings['APP_ID'], master_key=settings['MASTER_KEY'])
         try:
             nohupOut = open(os.getcwd()+'/nohup.out','r').read()
         except:

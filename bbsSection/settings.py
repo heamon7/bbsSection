@@ -22,6 +22,9 @@ DOWNLOAD_TIMEOUT = 700
 CONCURRENT_REQUESTS = 70
 CONCURRENT_REQUESTS_PER_DOMAIN = 70
 
+APP_ID = 'w359bnk9hh7z8fx0hsy6ee7b2tmf5va250hstatnu0a2iqbi'
+MASTER_KEY = '6k2z44pax0ueopc4qmbnxa8gzg6inon0t2a7d1fc6czqm1ei'
+
 #DEFAULT_REQUEST_HEADERS = {
 #           'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
 #           'Accept-Encoding': 'gzip, deflate, sdch',
