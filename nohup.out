@@ -1,0 +1,28 @@
+2015-05-18 20:08:50+0800 [scrapy] INFO: Scrapy 0.24.6 started (bot: bbsSection)
+2015-05-18 20:08:50+0800 [scrapy] INFO: Optional features available: ssl, http11, boto, django
+2015-05-18 20:08:50+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'bbsSection.spiders', 'SPIDER_MODULES': ['bbsSection.spiders'], 'LOG_LEVEL': 'INFO', 'BOT_NAME': 'bbsSection'}
+2015-05-18 20:08:50+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-05-18 20:08:51+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-05-18 20:08:51+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-05-18 20:08:51+0800 [scrapy] INFO: Enabled item pipelines: SectionPipeline
+2015-05-18 20:08:51+0800 [sectioner] INFO: Spider opened
+2015-05-18 20:08:51+0800 [sectioner] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-05-18 20:08:52+0800 [sectioner] INFO: Closing spider (finished)
+2015-05-18 20:08:52+0800 [sectioner] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 215,
+	 'downloader/request_count': 1,
+	 'downloader/request_method_count/GET': 1,
+	 'downloader/response_bytes': 2286,
+	 'downloader/response_count': 1,
+	 'downloader/response_status_count/200': 1,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 5, 18, 12, 8, 52, 346936),
+	 'item_scraped_count': 1,
+	 'log_count/INFO': 7,
+	 'response_received_count': 1,
+	 'scheduler/dequeued': 1,
+	 'scheduler/dequeued/memory': 1,
+	 'scheduler/enqueued': 1,
+	 'scheduler/enqueued/memory': 1,
+	 'start_time': datetime.datetime(2015, 5, 18, 12, 8, 51, 548045)}
+2015-05-18 20:08:52+0800 [sectioner] INFO: Spider closed (finished)

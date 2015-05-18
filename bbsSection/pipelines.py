@@ -14,8 +14,8 @@ from scrapy import log
 from scrapy.exceptions import DropItem
 class SectionPipeline(object):
     def __init__(self):
-        leancloud.init('mctfj249nwy7c1ymu3cps56lof26s17hevwq4jjqeqoloaey', master_key='ao6h5oezem93tumlalxggg039qehcbl3x3u8ofo7crw7atok')
-
+        leancloud.init('yn33vpeqrplovaaqf3r9ttjl17o7ej0ywmxv1ynu3d1c5wk8', master_key='zkw2itoe7oyyr3vmyrs8m95gbk0azmikc3jrtk2lw2z4792i')
+        pass
     def process_item(self, item, spider):
 
         Sections = Object.extend('Sections')

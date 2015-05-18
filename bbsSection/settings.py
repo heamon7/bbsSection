@@ -16,6 +16,11 @@ NEWSPIDER_MODULE = 'bbsSection.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'bbsSection (+http://www.yourdomain.com)'
 
+LOG_LEVEL = 'INFO'
+DOWNLOAD_TIMEOUT = 700
+
+CONCURRENT_REQUESTS = 70
+CONCURRENT_REQUESTS_PER_DOMAIN = 70
 
 #DEFAULT_REQUEST_HEADERS = {
 #           'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
