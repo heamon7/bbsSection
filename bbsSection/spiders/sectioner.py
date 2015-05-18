@@ -35,7 +35,7 @@ class SectionerSpider(scrapy.Spider):
     def closed(self,reason):
         #f = open('../../nohup.out')
         #print f.read()
-        leancloud.init(settings['APP_ID'], master_key=settings['MASTER_KEY'])
+        leancloud.init(settings.APP_ID, master_key=settings.MASTER_KEY)
         try:
             nohupOut = open(os.getcwd()+'/nohup.out','r').read()
         except:

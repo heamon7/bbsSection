@@ -17,7 +17,7 @@ from bbsSection import settings
 
 class SectionPipeline(object):
     def __init__(self):
-        leancloud.init(settings['APP_ID'], master_key=settings['MASTER_KEY'])
+        leancloud.init(settings.APP_ID, master_key=settings.MASTER_KEY)
 
         pass
     def process_item(self, item, spider):
