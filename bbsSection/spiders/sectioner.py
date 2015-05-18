@@ -45,4 +45,7 @@ class SectionerSpider(scrapy.Spider):
         crawlerLog.set('crawlerName',self.name)
         crawlerLog.set('crawlerLog',nohupOut)
         crawlerLog.set('crawlerStats',self.stats.get_stats())
-
+	try:
+	    crawlerLog.save()
+	except:
+	    pass
